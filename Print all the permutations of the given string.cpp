@@ -1,8 +1,10 @@
 /*
 GFG approach:
 
+USING STL
+
 We can use next_permutation that modifies a string so that it stores lexicographically next permutation. 
-If current string is lexicographically largest, i.e., ìCBAî, then next_permutation returns false.
+If current string is lexicographically largest, i.e., ‚ÄúCBA‚Äù, then next_permutation returns false.
 
 We first sort the string, so that it is converted to lexicographically smallest permutation. 
 Then we one by one call next_permutation until it returns false.
